@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background: rgb(0,212,255);
+    background: linear-gradient(300deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 65%, rgba(2,0,36,1) 100%); 
+    justify-content: space-between;
+    align-items: baseline;
+}
+body{
+    background-image: url('images/background-airplane.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,212,255);
+}
+.logo{
+    margin: 20px;
+    height: 15vh;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: auto 30px auto auto;
+}
+.menuButton{
+    background-color: rgb(5, 0, 107);
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+.menuButton:hover{
+    background-color: rgba(0,212,255,1);
+    transition: ease-in 0.2s;
+}
+input, type[text]{
+    padding: 1px;
+    color: rgb(0, 0, 0);
+}
+.registerSection{
+    display: flex;
+    flex-direction: row;
+}
+.leftBanner{
+    width: 50vw;
+    margin: auto auto;
+}
+.promoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10vh auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 5%;
+    background: linear-gradient(300deg, rgba(9,9,121) 0%, rgba(2,0,36) 100%); 
+}
+.promoCard img{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 1vh;
+}
+.promoCard p{
+    display:inline-block;
+    width: 100%;
+    text-align: justify;
+    padding-top: 1vh;
+}
+.promoButton{
+    background-color: rgba(0,212,255,1);
+    border: none;
+    color: black;
+    margin-top: 1vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+.promoButton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 24, 151);
+}
+.rightBanner{
+    width: 50vw;
+    margin: auto auto;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 5vw;
+    margin: 5vw;
+    background: rgb(0,212,255);
+    background: linear-gradient(300deg, rgba(0,212,255,0.75) 0%, rgba(9,9,121,0.75) 65%, rgba(2,0,36,0.75) 100%);  
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.registerForm h1{
+    align-self: center;
+}
+.registerForm input{
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+.registerButton{
+    height: 50px;
+    font-size: larger;
+    font-weight: normal;
+    margin-top: 1vh;
+    background-color: rgb(0, 196, 65);
+    border-radius:5px;
+    border:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.registerButton:hover{
+    background-color: rgb(54, 255, 121);
+    color: rgb(2, 151, 94);
+}
+.sales{
+    display: flex;
+    flex-direction: column;
+    background: rgb(0,212,255);
+    background: linear-gradient(0deg, rgba(0,212,255) 0%, rgba(9,9,121) 65%, rgba(2,0,36) 100%); 
+    padding: 20px 0 5px 20px;
+}
+.basePromoCard{
+   display: flex;
+   flex-direction: row;
+   gap: 1vw;
+}
+.basePromoCard img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+#signature{
+    margin: auto auto;
+    padding-bottom: 1vh;
+}
+#signature h5{
+    color: black;
+}
